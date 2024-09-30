@@ -1,7 +1,9 @@
-// Models/Product.cs
-public class Product
+namespace WarehouseProjectApiRest.Models
 {
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public double Size { get; set; } // in qm 
+    public class Product
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } 
+        public double Size { get; set; } 
+    }
 }

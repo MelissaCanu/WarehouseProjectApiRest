@@ -1,9 +1,10 @@
 ﻿namespace WarehouseProjectApiRest.Models
+   
 {
     public class ProductBatch
     {
         public int Id { get; set; }
-        public int Product { get; set; } // Refers to Product.Id
+        public Product Product { get; set; } // refers to the Product class
         public int Quantity { get; set; }
     }
 }
